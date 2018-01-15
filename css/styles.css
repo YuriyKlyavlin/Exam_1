@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700");
+@font-face {
+  font-family: aleo-regular-webfont;
+  src: url("../fonts/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.ttf") format("truetype"), url("../fonts/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.svg") format("svg"), url("../fonts/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.woff") format("woff"), url("../fonts/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.woff2") format("woff2");
+  font-weight: 300; }
+
+/* @import 'vars'; */
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none; }
+
+div[class*="wrapper-"] > div {
+  max-width: 1110px;
+  margin: 0 auto; }
+
+div[class*="wrapper-"] {
+  padding: 0 15px; }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.wrapper-1 {
+  background: url("../img/Header-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .wrapper-1 .header {
+    padding: 292px 0 134px; }
+    .wrapper-1 .header__title {
+      font: 700 48px/1 "Josefin Sans", Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 4.8px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 15px; }
+    .wrapper-1 .header__slogan {
+      font: 400 22px/1 "Josefin Sans", Arial, sans-serif;
+      letter-spacing: 6.1px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 50px; }
+    .wrapper-1 .header__search {
+      width: 654px;
+      margin: 0 auto 120px; }
+      .wrapper-1 .header__search-field {
+        width: 500px;
+        height: 60px;
+        font: 400 18px/1 "Josefin Sans", Arial, sans-serif;
+        padding: 6px 0 5px 15px;
+        border: none;
+        outline: none; }
+        .wrapper-1 .header__search-field::-webkit-input-placeholder {
+          font: 400 14px/3 "Josefin Sans", Arial, sans-serif;
+          letter-spacing: 2.8px;
+          text-align: center;
+          opacity: 1;
+          -webkit-transition: opacity .15s linear;
+          -o-transition: opacity .15s linear;
+          transition: opacity .15s linear; }
+        .wrapper-1 .header__search-field:-ms-input-placeholder {
+          font: 400 14px/3 "Josefin Sans", Arial, sans-serif;
+          letter-spacing: 2.8px;
+          text-align: center;
+          opacity: 1;
+          -webkit-transition: opacity .15s linear;
+          -o-transition: opacity .15s linear;
+          transition: opacity .15s linear; }
+        .wrapper-1 .header__search-field::-ms-input-placeholder {
+          font: 400 14px/3 "Josefin Sans", Arial, sans-serif;
+          letter-spacing: 2.8px;
+          text-align: center;
+          opacity: 1;
+          -webkit-transition: opacity .15s linear;
+          -o-transition: opacity .15s linear;
+          transition: opacity .15s linear; }
+        .wrapper-1 .header__search-field::placeholder {
+          font: 400 14px/3 "Josefin Sans", Arial, sans-serif;
+          letter-spacing: 2.8px;
+          text-align: center;
+          opacity: 1;
+          -webkit-transition: opacity .15s linear;
+          -o-transition: opacity .15s linear;
+          transition: opacity .15s linear; }
+        .wrapper-1 .header__search-field:focus::-webkit-input-placeholder {
+          opacity: 0; }
+        .wrapper-1 .header__search-field:focus:-ms-input-placeholder {
+          opacity: 0; }
+        .wrapper-1 .header__search-field:focus::-ms-input-placeholder {
+          opacity: 0; }
+        .wrapper-1 .header__search-field:focus::placeholder {
+          opacity: 0; }
+      .wrapper-1 .header__search-btn {
+        font: 400 14px/1 "aleo-regular-webfont", Arial, sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        width: 150px;
+        height: 60px;
+        text-align: left;
+        padding-left: 33px;
+        outline: none;
+        border: 2px solid #fff;
+        cursor: pointer;
+        background: #5474fd no-repeat 90% center; }
+        .wrapper-1 .header__search-btn:hover {
+          background-color: #4b6bf4; }
+    .wrapper-1 .header__scroller {
+      display: block;
+      margin: 0 auto;
+      width: 125px;
+      cursor: pointer; }
+      .wrapper-1 .header__scroller-text {
+        font: 400 14px/2 "Josefin Sans", Arial, sans-serif;
+        color: #fff;
+        letter-spacing: 2.8px;
+        text-align: center;
+        margin-bottom: 10px; }
+      .wrapper-1 .header__scroller-img {
+        display: block;
+        margin: 0 auto; }
+      .wrapper-1 .header__scroller .circle {
+        border-color: transparent; }
+      .wrapper-1 .header__scroller:hover .circle {
+        -webkit-transition: border-color .25s ease;
+        -o-transition: border-color .25s ease;
+        transition: border-color .25s ease;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        left: 50%;
+        -webkit-transform: translate(-50%, -70%);
+        -ms-transform: translate(-50%, -70%);
+        -o-transform: translate(-50%, -70%);
+        transform: translate(-50%, -70%);
+        border: 1px solid #fff;
+        border-radius: 50%; }
+
+.wrapper-2 {
+  background-color: #5474fd; }
+  .wrapper-2 .sect-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+    .wrapper-2 .sect-1__logo {
+      font: 700 24px/2 "Josefin Sans", Arial, sans-serif;
+      color: #fff;
+      letter-spacing: 2.8px;
+      text-transform: uppercase; }
+    .wrapper-2 .sect-1__nav {
+      padding: 28px 0 25px; }
+      .wrapper-2 .sect-1__nav-item {
+        display: inline-block; }
+        .wrapper-2 .sect-1__nav-item:not(:last-of-type) {
+          margin-right: 40px; }
+        .wrapper-2 .sect-1__nav-item .item-link {
+          font: 400 14px/3 "aleo-regular-webfont", Arial, sans-serif;
+          color: #fff;
+          text-transform: uppercase;
+          position: relative; }
+          .wrapper-2 .sect-1__nav-item .item-link::after {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 3px;
+            left: 50%;
+            bottom: -5px;
+            -webkit-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+            -o-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+            background-color: #fff;
+            -webkit-transition: width .25s ease;
+            -o-transition: width .25s ease;
+            transition: width .25s ease; }
+          .wrapper-2 .sect-1__nav-item .item-link:hover::after {
+            width: 100%; }
+
+.wrapper-3 {
+  background: url("../img/Section3-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom center; }
+  .wrapper-3 .sect-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding: 120px 0; }
+    .wrapper-3 .sect-2__lebl {
+      /* max-width: 54.54%; */
+      width: 54.54%;
+      margin-right: 25px;
+      margin-top: 55px; }
+      .wrapper-3 .sect-2__lebl-title {
+        font: 400 36px/1 "aleo-regular-webfont", Arial, sans-serif;
+        color: #fff;
+        margin-bottom: 65px; }
+      .wrapper-3 .sect-2__lebl-subtitle {
+        font-family: "Josefin Sans", Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        color: #fff;
+        line-height: 1.6;
+        letter-spacing: 1px;
+        text-transform: none;
+        margin-bottom: 38px; }
+      .wrapper-3 .sect-2__lebl-btn {
+        width: 225px;
+        height: 60px;
+        font: 400 16px/1 "aleo-regular-webfont", Arial, sans-serif;
+        color: #e8e8e8;
+        letter-spacing: 1.2px;
+        text-align: center;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(45deg, #496bfe 38%, #5474fd 38%);
+        background: -o-linear-gradient(45deg, #496bfe 38%, #5474fd 38%);
+        background: linear-gradient(45deg, #496bfe 38%, #5474fd 38%);
+        cursor: pointer;
+        -webkit-transition: background .25s ease;
+        -o-transition: background .25s ease;
+        transition: background .25s ease;
+        margin-top: 5px; }
+        .wrapper-3 .sect-2__lebl-btn:hover {
+          background: -webkit-linear-gradient(45deg, #4466f9 38%, #5979ff 38%);
+          background: -o-linear-gradient(45deg, #4466f9 38%, #5979ff 38%);
+          background: linear-gradient(45deg, #4466f9 38%, #5979ff 38%); }
+    .wrapper-3 .sect-2__ribl {
+      max-width: 45.46%;
+      width: 475px; }
+      .wrapper-3 .sect-2__ribl-img:last-of-type {
+        margin: 5px 0 0 0;
+        float: right; }
+
+.wrapper-4 {
+  background-color: #333; }
+  .wrapper-4 .sect-3 {
+    padding: 100px 0 120px; }
+    .wrapper-4 .sect-3 .wr {
+      max-width: 87.83%;
+      width: 975px;
+      margin: 0 auto;
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+      .wrapper-4 .sect-3 .wr__block-img {
+        display: block;
+        margin: 0 auto 28px;
+        position: relative;
+        z-index: 10; }
+      .wrapper-4 .sect-3 .wr__block-text {
+        font: 400 36px/1 "aleo-regular-webfont", Arial, sans-serif;
+        color: #e8e8e8; }
+      .wrapper-4 .sect-3 .wr__arc {
+        position: absolute;
+        left: 50%;
+        bottom: 80px;
+        -webkit-transform: translate(-50.5%, 0);
+        -ms-transform: translate(-50.5%, 0);
+        -o-transform: translate(-50.5%, 0);
+        transform: translate(-50.5%, 0);
+        max-width: 777px;
+        width: 100%;
+        z-index: 0; }
+
+.form {
+  width: 540px;
+  padding: 50px 0 50px 30px;
+  background-color: rgba(35, 35, 35, 0.9); }
+  .form-caption {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #e8e8e8;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-transform: none;
+    margin-bottom: 30px; }
+  .form-title {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .form-subtitle {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #e8e8e8;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-transform: none;
+    margin-bottom: 48px; }
+  .form-btn {
+    width: 225px;
+    height: 60px;
+    font: 400 16px/1 "aleo-regular-webfont", Arial, sans-serif;
+    color: #e8e8e8;
+    letter-spacing: 1.2px;
+    text-align: center;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(45deg, #496bfe 38%, #5474fd 38%);
+    background: -o-linear-gradient(45deg, #496bfe 38%, #5474fd 38%);
+    background: linear-gradient(45deg, #496bfe 38%, #5474fd 38%);
+    cursor: pointer;
+    -webkit-transition: background .25s ease;
+    -o-transition: background .25s ease;
+    transition: background .25s ease; }
+    .form-btn:hover {
+      background: -webkit-linear-gradient(45deg, #4466f9 38%, #5979ff 38%);
+      background: -o-linear-gradient(45deg, #4466f9 38%, #5979ff 38%);
+      background: linear-gradient(45deg, #4466f9 38%, #5979ff 38%); }
+
+.wrapper-5 {
+  background: url("../img/Section4-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom center; }
+  .wrapper-5 .sect-4 {
+    padding: 229px 0 100px; }
+
+.wrapper-6 {
+  background: url("../img/Section5-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom center; }
+  .wrapper-6 .sect-5 {
+    padding: 229px 0 100px; }
+    .wrapper-6 .sect-5 .form {
+      float: right; }
+
+.wrapper-7 {
+  background: url("../img/Section6-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom center; }
+  .wrapper-7 .sect-6 {
+    padding: 120px 0 200px; }
+    .wrapper-7 .sect-6__title {
+      font: 400 36px/1 "aleo-regular-webfont", Arial, sans-serif;
+      color: #e8e8e8;
+      text-align: center;
+      margin-bottom: 90px; }
+    .wrapper-7 .sect-6__post {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      width: 100%;
+      background-color: #333; }
+      .wrapper-7 .sect-6__post div {
+        height: 284px;
+        margin: 0; }
+        .wrapper-7 .sect-6__post div .sect-6__post-img {
+          width: 100%;
+          height: 100%;
+          -o-object-fit: cover;
+          object-fit: cover; }
+      .wrapper-7 .sect-6__post__content {
+        width: 60%;
+        padding: 50px 0 18px 60px; }
+        .wrapper-7 .sect-6__post__content .title {
+          font-family: "Josefin Sans", Arial, sans-serif;
+          font-size: 20px;
+          font-weight: 200;
+          color: #fefefe;
+          line-height: 1.6;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          height: 50px; }
+        .wrapper-7 .sect-6__post__content .subtitle {
+          width: 550px;
+          max-width: 95%;
+          font-family: "Josefin Sans", Arial, sans-serif;
+          font-size: 16px;
+          font-weight: 200;
+          color: #e8e8e8;
+          line-height: 1.6;
+          letter-spacing: 1px;
+          text-transform: none;
+          line-height: 26px; }
+          .wrapper-7 .sect-6__post__content .subtitle .fa-quote-left {
+            font-size: 30px; }
+    .wrapper-7 .sect-6__arroblo {
+      width: 175px;
+      margin-top: 30px;
+      float: right; }
+      .wrapper-7 .sect-6__arroblo-lebl, .wrapper-7 .sect-6__arroblo-ribl {
+        display: inline-block;
+        width: 80px;
+        border: 1px solid #fff;
+        padding: 16px 34px;
+        -webkit-transition: background-color .15s ease;
+        -o-transition: background-color .15s ease;
+        transition: background-color .15s ease; }
+        .wrapper-7 .sect-6__arroblo-lebl:not(:last-of-type), .wrapper-7 .sect-6__arroblo-ribl:not(:last-of-type) {
+          margin-right: 15px; }
+        .wrapper-7 .sect-6__arroblo-lebl:hover, .wrapper-7 .sect-6__arroblo-ribl:hover {
+          background-color: #444; }
+
+.wrapper-8 {
+  background-color: #232323; }
+  .wrapper-8 .footer {
+    padding: 120px 0 68px; }
+    .wrapper-8 .footer__fobl {
+      width: 178px;
+      margin: 0 auto; }
+      .wrapper-8 .footer__fobl-logo {
+        font: 700 24px/1 "Josefin Sans", Arial, sans-serif;
+        color: #fff;
+        letter-spacing: 3.6px;
+        text-align: center;
+        display: inherit;
+        text-transform: uppercase;
+        padding-bottom: 15px; }
+      .wrapper-8 .footer__fobl-slogan {
+        font: 400 16px/1 "Josefin Sans", Arial, sans-serif;
+        letter-spacing: 1px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 30px; }
+      .wrapper-8 .footer__fobl-social {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; }
+        .wrapper-8 .footer__fobl-social .social-link i {
+          font-size: 16px;
+          color: #e8e8e8; }
+        .wrapper-8 .footer__fobl-social .social-link .fa-linkedin {
+          color: #5474fd; }

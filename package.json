@@ -1,0 +1,21 @@
+{
+  "name": "design_lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.scss": "^0.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuriy Klyavlin",
+  "license": "ISC",
+  "description": ""
+}

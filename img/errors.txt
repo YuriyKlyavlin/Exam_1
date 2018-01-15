@@ -1,0 +1,1 @@
+[2018-01-07 13:09:28] layer "Section4-bg.img": Unsupported extension: img

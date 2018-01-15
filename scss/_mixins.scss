@@ -1,0 +1,33 @@
+
+@mixin flex($jc) {
+	display: flex;
+	justify-content: $jc;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+@mixin text($fs, $fc, $ttr) {
+	font-family: "Josefin Sans", Arial, sans-serif;
+	font-size: $fs;
+	font-weight: 200;
+	color: $fc;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	text-transform: $ttr;
+}
+
+@mixin btn() {
+	width: 225px; height: 60px;
+	font: 400 16px/1 "aleo-regular-webfont", Arial, sans-serif;
+	color: #e8e8e8;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	background: linear-gradient(45deg, #496bfe 38%, #5474fd 38%);
+	cursor: pointer;
+	transition: background .25s ease;
+	&:hover {
+		background: linear-gradient(45deg, (#496bfe - #050505) 38%, (#5474fd + #050505) 38%);
+		
+	}
+}
