@@ -28,7 +28,7 @@ div[class*="wrapper-"] {
   clear: both; }
 
 .wrapper-1 {
-  background: url("../img/Header-bg.jpg") no-repeat;
+  background: url("../img/header-bg.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
   .wrapper-1 .header {
@@ -191,7 +191,7 @@ div[class*="wrapper-"] {
             width: 100%; }
 
 .wrapper-3 {
-  background: url("../img/Section3-bg.jpg") no-repeat;
+  background: url("../img/section3-bg.jpg") no-repeat;
   background-size: cover;
   background-position: bottom center; }
   .wrapper-3 .sect-2 {
@@ -344,14 +344,14 @@ div[class*="wrapper-"] {
       background: linear-gradient(45deg, #4466f9 38%, #5979ff 38%); }
 
 .wrapper-5 {
-  background: url("../img/Section4-bg.jpg") no-repeat;
+  background: url("../img/section4-bg.jpg") no-repeat;
   background-size: cover;
   background-position: bottom center; }
   .wrapper-5 .sect-4 {
     padding: 229px 0 100px; }
 
 .wrapper-6 {
-  background: url("../img/Section5-bg.jpg") no-repeat;
+  background: url("../img/section5-bg.jpg") no-repeat;
   background-size: cover;
   background-position: bottom center; }
   .wrapper-6 .sect-5 {
@@ -360,7 +360,7 @@ div[class*="wrapper-"] {
       float: right; }
 
 .wrapper-7 {
-  background: url("../img/Section6-bg.jpg") no-repeat;
+  background: url("../img/section6-bg.jpg") no-repeat;
   background-size: cover;
   background-position: bottom center; }
   .wrapper-7 .sect-6 {
